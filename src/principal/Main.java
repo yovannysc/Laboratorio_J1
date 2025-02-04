@@ -68,36 +68,48 @@ public class Main {
 
 		// EJERCICIO 7 (puedes abrir el hueco que necesites)
 
-		int i = 0;
-		for (i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			System.out.println("Hola Mundo");
 		}
 
 		// fin EJERCICIO 7
 
 		// EJERCICIO 8 (puedes abrir el hueco que necesites)
-		
-//		int l = 0;
-//		while(l < 5) {
-//			System.out.println("Hola Mundo");
-//		}
 
-		// fin EJERCICIO 8
-		
 		int k = 0;
-		for (k = 1; k > 10; k++) {
-		System.out.println(k);
-	}
+		while (k < 5) {
+		    System.out.print("Hola Mundo ");
+		    k++;
+		}
+		System.out.println();
+		
+		// fin EJERCICIO 8
 
 		// EJERCICIO 9 (puedes abrir el hueco que necesites)
+
+		for (int l = 1; l <= 10; l++) {
+			System.out.println(l);
+		}
 
 		// fin EJERCICIO 9
 
 		// EJERCICIO 10 (puedes abrir el hueco que necesites)
 
+		for (int o = 1; o <= 10; o++) {
+			if (o % 2 == 0) {
+				System.out.println(o);
+			}
+		}
+
 		// fin EJERCICIO 10
 
 		// EJERCICIO 11 (puedes abrir el hueco que necesites)
+
+		for (int j = 1; j <= 10; j++) {
+			if (j % 2 != 0) {
+				System.out.println(j);
+			}
+		}
 
 		// fin EJERCICIO 11
 
